@@ -19,4 +19,27 @@
     <maven>3.0.3</maven>
   </prerequisites>
 
+         <distributionManagement>
+	<!-- This is added by balu -->
+		
+		<repository>
+			<id>releases</id>
+			<name>Releases</name>
+			<url>http://13.126.132.80:9081/nexus/content/repositories/4321/</url>
+			<snapshots><enabled>true</enabled></snapshots>
+		</repository>
+		
+		
+		
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>http://13.126.132.80:9081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+		
+	</distributionManagement>
+	
+</project>
+
+         
 </project>
