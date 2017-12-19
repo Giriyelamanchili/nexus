@@ -25,7 +25,7 @@
 		<repository>
 			<id>releases</id>
 			<name>Releases</name>
-			<url>http://54.233.64.113:8081/nexus/content/repositories/releases/</url>
+			<url>http://13.57.255.211:8081/nexus/content/repositories/releases/</url>
 			<snapshots><enabled>true</enabled></snapshots>
 		</repository>
 		
