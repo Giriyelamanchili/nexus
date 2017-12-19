@@ -34,7 +34,7 @@
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Snapshots</name>
-			<url>http://13.57.255.211:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://13.57.255.211:8081/nexus/content/repositories/codehaus-snapshots/</url>
 		</snapshotRepository>
 		
 	</distributionManagement>
